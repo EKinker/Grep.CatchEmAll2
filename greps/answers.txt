@@ -1,12 +1,30 @@
 # Part 1
 ### a)
-Forest- Blastoise:   ggrep -P ^blas forest/filescan_00.1 > captured/captured_blastoise.txt
-Forest- Butterfree:  ggrep -P ^butt forest/filescan_00.1 > captured/captured_butterfree.txt
-Forest- Beedrill:    ggrep -P ^bee forest/filescan_00.1 > captured/captured_beedrill.txt
-Forest- Bulbasaur:    ggrep -P ^bulb forest/filescan_00.1 > captured/captured_bulbasaur.txt
+1:
+Blastoise:   ggrep -P ^blas forest/filescan_00.1 > captured/blastoise.txt
+Butterfree:  ggrep -P ^butt forest/filescan_00.1 > captured/butterfree.txt
+Beedrill:    ggrep -P ^bee forest/filescan_00.1 > captured/beedrill.txt
+Bulbasaur:   ggrep -P ^bulb forest/filescan_00.1 > captured/bulbasaur.txt
 
+2:
+Charizard:   ggrep -P izard forest/filescan_00.2 > captured/charizard.txt
+Charmander:  ggrep -P mand forest/filescan_00.2 > captured/charmander.txt
+Charmeleon:  ggrep -P mel forest/filescan_00.2 > captured/charmeleon.txt
+
+3:
+Pikachu:     ggrep -P pika forest/filescan_00.3 > captured/pikachu.txt
+Jigglypuff:  ggrep -P puff forest/filescan_00.3 > captured/jigglypuff.txt
+Meowth:      ggrep -P meow forest/filescan_00.3 > captured/meowth.txt
+Ivysaur:     ggrep -P ivy forest/filescan_00.3 > captured/ivysaur.txt
+
+4:
+Wartortle:   ggrep -P war forest/filescan_00.4 > captured/wartortle.txt
+Psyduck:     ggrep -P psyd forest/filescan_00.4 > captured/psyduck.txt
+Squirtle:    ggrep -P squi forest/filescan_00.4 > captured/squirtle.txt
+Venusaur:    ggrep -P venu forest/filescan_00.4 > captured/venusaur.txt
 
 ### b)
+
 
 
 
