@@ -1,7 +1,9 @@
 # Part 1
 ### a)
-
-
+Forest- Blastoise:   ggrep -P ^blas forest/filescan_00.1 > captured/captured_blastoise.txt
+Forest- Butterfree:  ggrep -P ^butt forest/filescan_00.1 > captured/captured_butterfree.txt
+Forest- Beedrill:    ggrep -P ^bee forest/filescan_00.1 > captured/captured_beedrill.txt
+Forest- Bulbasaur:    ggrep -P ^bulb forest/filescan_00.1 > captured/captured_bulbasaur.txt
 
 
 ### b)
