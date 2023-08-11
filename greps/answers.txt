@@ -1,5 +1,5 @@
 # Part 1
-### a)
+
 1:
 Blastoise:   ggrep -P ^blas forest/filescan_00.1 > captured/blastoise.txt
 Butterfree:  ggrep -P ^butt forest/filescan_00.1 > captured/butterfree.txt
@@ -23,14 +23,24 @@ Psyduck:     ggrep -P psyd forest/filescan_00.4 > captured/psyduck.txt
 Squirtle:    ggrep -P squi forest/filescan_00.4 > captured/squirtle.txt
 Venusaur:    ggrep -P venu forest/filescan_00.4 > captured/venusaur.txt
 
-### b)
+
+PART 2:
+a) How many pokemon are there? Show your grep that you used to get to that number.
+15    ggrep -c 'txt$' captured/* | wc -l
+
+Removed the instructions because it would throw off the count.  I could have set it to ignore the instructions... but we don't need that file
 
 
 
+b) Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
+Beedrill, Charizard, Pikachu
+ggrep -c '.' captured/* | sort -t ':' -k2nr | head -n 3
 
-### c)
+Search for a count of everything in the captured directory, then sort:
+-t ':'   field delimiter using : to separate
+-k2nr    sort look in the 2nd field (separated by :) and return numbers in reverse
 
-
+then take the top 3 (head -n 3)
 
 
 
