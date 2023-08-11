@@ -34,13 +34,16 @@ Removed the instructions because it would throw off the count.  I could have set
 
 b) Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
 Beedrill, Charizard, Pikachu
-ggrep -c '.' captured/* | sort -t ':' -k2nr | head -n 3
+ggrep -c '.' captured/* | sort -t ':' -k2 -nr | head -n 3
 
 Search for a count of everything in the captured directory, then sort:
--t ':'   field delimiter using : to separate
--k2nr    sort look in the 2nd field (separated by :) and return numbers in reverse
+-t ':'  field delimiter using : to separate
+-k2     sort look in the 2nd field (separated by :)
+-nr     and return numbers in reverse
 
 then take the top 3 (head -n 3)
+
+https://www.geeksforgeeks.org/sort-command-linuxunix-examples/#:~:text=%2Dk%20Option%3A%20Unix%20provides%20the,sort%20on%20the%20second%20column.
 
 
 
